@@ -14,8 +14,8 @@ function multiplication(num1, num2){
     return num1*num2;
 }
 
-let num1 = Number(prompt("Enter FIrst Number"));
-let num2 = Number(prompt("Enter Second Number"));
+let num1 = Number(prompt("Enter the First Number"));
+let num2 = Number(prompt("Enter the Second Number"));
 let choice = Number(prompt('Select \n 1. for Addition \n 2. for Subtraction \n 3. for Division \n 4. forMultiplication'));
 
 if (choice === 1){
